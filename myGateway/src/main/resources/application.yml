@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: myGateway
+  cloud:
+    gateway:
+      routes:  
+       - id: helloservice-route
+         uri: http://localhost:8083
+         predicates:
+          - Path=/helloserviceR1/**
+       - id: helloservice2-route
+         uri: http://localhost:8084
+         predicates:
+          - Path=/helloServiceR2/**
+       - id: storeprojectService
+         uri: http://localhost:9000
+         predicates:
+          - Path=/store/Items/** 
+       
+server:
+  port: 8089
+          
+      
+management:
+  endpoints:
+    web:
+      exposure:
+       include: "*"
+  endpoint:
+    health:
+      show-details: always
+    gateway:
+      enabled: true
+
+    
+

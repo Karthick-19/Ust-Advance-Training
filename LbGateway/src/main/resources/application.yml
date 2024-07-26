@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: LbGateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+#      routes:  
+#         - id: lb-services
+#           uri: lb://LBSERVICE
+#           predicates:
+#            - Path=/lbservice/**
+#
+#    
+management:
+  endpoints:
+    web:
+      exposure:
+       include: "*"
+  endpoint:
+    health:
+      show-details: always
+    gateway:
+      enabled: true
+
+server:
+ port: 7022

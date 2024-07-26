@@ -1,0 +1,6 @@
+spring:
+  application:
+    ame: helloClient
+
+server:
+  port: 8085
