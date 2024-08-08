@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <style>
+        body{
+            font-family: sans-serif Arial, Helvetica, sans-serif;
+            font-weight: lighter
+        }
+      article {
+        padding: 20px;
+        border: 2px solid;
+        width: 300px;
+      }
+      section {
+        display: flex;
+      }
+      h3 {
+        text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <h2><Strong>U S</Strong></h2>
+        <h2><Strong>T &nbsp;■</Strong></h2>
+        <a href="#top">TagsHTML</a> |
+      </nav>
+    <div>
+        <h2>HTML</h2>
+        <p>
+            HTML, or HyperText Markup Language, is a foundational technology used to create web pages.
+            It is a markup language that structures content on the web and is one of the core technologies
+            of the World Wide Web. HTML is not only pivotal for web development but also plays a crucial role
+            in content presentation and layout.
+        </p>
+        <h2>Key Features of HTML</h2>
+        <p>
+        <h3>Simplicity and User-Friendliness</h3>
+        HTML is known for its straightforward and readable syntax.
+        It uses tags to structure content, making it easy for both humans and browsers to interpret.
+        The language includes a wide array of tags, but only a subset is commonly used in everyday development.
+        This simplicity makes HTML an accessible entry point for those new to web development.
+
+        <h3>Semantic Structure</h3>
+        <p>
+        HTML5 introduced semantic elements that clearly describe their meaning in a human- and machine-readable way.
+        Elements like &lt;article&gt;, &lt;aside&gt;, &lt;header&gt;, &lt;footer&gt;, and &lt;nav&gt; not only define the content but also its role on
+        the page. This semantic structure is beneficial for search engines and accessibility tools.
+        </p>
+
+        <h3>SEO Optimization</h3>
+        <p>
+        HTML plays a significant role in search engine optimization (SEO). Well-structured HTML
+        helps search engines understand the content of a page, which can improve its visibility in
+        search results. Tags like &lt;title&gt;,
+        &lt;meta&gt;, and &lt;header&gt; are instrumental in defining critical keywords and descriptions for SEO.
+        </p>
+        <h3>Client-Side Storage</h3>
+        <p>
+        HTML5 enhanced the web's storage capabilities with localStorage and IndexedDB. These
+        features allow developers to store data on the client's side, improving performance
+        and user experience. localStorage is ideal for storing small amounts of data, while
+        IndexedDB can handle more complex and larger datasets.
+        </p>
+        </p>
+    </div>
+    <h2 id="top">HTML Tags</h2>
+    <h3>Types of Container tags</h3>
+    <section class="containerTypes">
+      <article>
+        <p>
+          Container tags which don't have their own content eg:table,body,head
+        </p>
+      </article>
+      <article>
+        <p>Standalone tags which need not be closed eg:img,br,hr</p>
+      </article>
+      <article>
+        <p>
+          Content tags which must be opened and closed the content is entered in
+          between opening and closing eg:h1,h2...p
+        </p>
+      </article>
+      <article>
+        <p>Parent and child tags eg:table-tr-td-content</p>
+      </article>
+      <article>
+        <p>Tags have attributes eg:class,id,href</p>
+      </article>
+    </section>
+    <h3>Font and Formatting tags</h3>
+    <section class="formattingTags">
+      <article
+        style="
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between;
+        "
+      >
+        Heading tags h1 - h6
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+      </article>
+      <article>
+        Text Formatting: &lt;b&gt;<b>bold</b> &lt;i&gt;<i>Italics</i>
+        &lt;u&gt;<u>Underline</u> &lt;sup&gt;<sup>Sup</sup>
+        &lt;strike&gt;<strike>Strike</strike> &lt;sub&gt;<sub>Sub</sub>
+        &lt;strong&gt;<strong>Strong</strong>
+        <h4>
+          HTML Formatting <br /><a
+            href="https://www.w3schools.com/html/html_formatting.asp"
+            >Link➚</a
+          >
+        </h4>
+      </article>
+      <article>
+        Punctuation tags: <q>You are a trillionaire</q> <sub>~ Anil</sub>
+      </article>
+      <article>
+        <p>
+          &lt;p&gt; &lt;/p&gt; for organising content into logical paragraphs
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </article>
+    </section>
+    <h3>Media Tags</h3>
+    <section class="mediaTags">
+      <article>
+        &lt;img&gt;
+        <img src="./puppy.jpeg" alt="Puppy" width="50" height="50" />
+        <img
+          src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3I0ZGdyYXlweHFibWsxdDczeDJ4NXd5NndnMG9lb3R2d2s5enU2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZICHGrSD5QEFCxMiC/giphy.gif"
+          alt=""
+          width="100"
+          height="100"
+        />
+      </article>
+      <article>
+        &lt;video&gt;
+        <video
+          src="./ssvid.net - Deadpool  Avengers dancing Bye Bye Bye NSYNC_v720P.mp4"
+          width="150"
+          height="150"
+          controls
+        ></video>
+      </article>
+      <article>
+        <audio
+          src="./Hanumankind Big Dawgs Ft Kalmi Official Music Video Def Jam India.mp3"
+          controls
+        ></audio>
+        <br />
+        &lt;audio&gt; Big dawgs
+      </article>
+      <article>
+        <td>
+          <iframe
+            src="https://www.wikipedia.org/"
+            frameborder="0"
+            width="200"
+            height="200"
+          ></iframe>
+          &lt;iframe&gt;
+        </td>
+      </article>
+      <article>
+        <figure>
+          <img src="./puppy.jpeg" alt="Puppy" width="50" height="50" />
+          <figcaption>Cutie</figcaption>
+        </figure>
+        &lt;figure&gt;
+      </article>
+    </section>
+    <h3>List Tags</h3>
+    <section class="listTags">
+      
+      <article>
+        &lt;ol&gt;<br />
+        &lt;ol type="1"&gt;
+        <ol type="1">
+          <li>Day1</li>
+          <li>Day2</li>
+          <li>Day3</li>
+          <li>Day4</li>
+          <li>Day5</li>
+        </ol>
+      </article>
+      <article>
+        &lt;ol&gt;<br />
+        &lt;ol type="I"&gt;
+        <ol type="I">
+          <li>Day1</li>
+          <li>Day2</li>
+          <li>Day3</li>
+          <li>Day4</li>
+          <li>Day5</li>
+        </ol>
+      </article>
+      <article>
+        &lt;ol&gt;<br />
+        &lt;ol type="A"&gt;
+        <ol type="A">
+          <li>Day1</li>
+          <li>Day2</li>
+          <li>Day3</li>
+          <li>Day4</li>
+          <li>Day5</li>
+        </ol>
+      </article>
+      <article>
+        &lt;ol&gt;<br />
+        &lt;ol type="a"&gt;
+        <ol type="a">
+          <li>Day1</li>
+          <li>Day2</li>
+          <li>Day3</li>
+          <li>Day4</li>
+          <li>Day5</li>
+        </ol>
+      </article>
+      <article>
+        &lt;ul&gt;
+        <ul title="Unordered List" type="square">
+          <li>product1</li>
+          <li>product2</li>
+          <li>product3</li>
+          <li>product4</li>
+          <li>product5</li>
+        </ul>
+      </article>
+    </section>
+    <h3>Semantic Tags</h3>
+    <section class="semanticTags">
+      <article>
+        <div class="container">
+          <div>
+            <h3>hello1</h3>
+            <h3>hello2</h3>
+            <h3>hello3</h3>
+          </div>
+          <div>
+            <h3>hello1</h3>
+            <h3>hello2</h3>
+            <h3>hello3</h3>
+          </div>
+          <div>
+            <h3>hello1</h3>
+            <h3>hello2</h3>
+            <h3>hello3</h3>
+          </div>
+        </div>
+      </article>
+      <article>
+        <span class="content">
+          <span>
+            <h4>Welcome1</h4>
+            <h4>Welcome2</h4>
+            <h4>Welcome3</h4>
+          </span>
+          <span>
+            <h4>Welcome1</h4>
+            <h4>Welcome2</h4>
+            <h4>Welcome3</h4>
+          </span>
+          <span>
+            <h4>Welcome1</h4>
+            <h4>Welcome2</h4>
+            <h4>Welcome3</h4>
+          </span> </span
+        ><head>
+          <nav>
+            <ul>
+              <li><a href="http://youtube.com">Youtube</a></li>
+              <li><a href="http://javaTpoint.com">javaTpoint</a></li>
+              <li><a href="http://ust.com">UST</a></li>
+            </ul>
+          </nav>
+        </head>
+      </article>
+      <article>
+        <main>
+          <section>
+            <article>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                voluptate.
+              </p>
+            </article>
+          </section>
+          <section>
+            <article>
+              <p>
+                Ad eaque similique perferendis dicta saepe autem exercitationem?
+                Eveniet, tenetur?
+              </p>
+            </article>
+          </section>
+          <section>
+            <article>
+              <p>
+                Nihil, non quasi nam fuga veritatis itaque harum praesentium
+                doloribus.
+              </p>
+            </article>
+          </section>
+        </main>
+      </article>
+      <article>
+        <head>
+          <h4>
+            UST
+            <nav>
+              <ul>
+                <li>click1</li>
+                <li>click2</li>
+                <li>click3</li>
+              </ul>
+            </nav>
+          </h4>
+        </head>
+        <main>
+          <section>
+            <article>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat, rem.
+              </p>
+            </article>
+            <article>
+              <p>
+                Temporibus, sit non vitae esse laudantium soluta minima delectus
+                fugiat!
+              </p>
+            </article>
+            <article>
+              <p>
+                Eius impedit illum perferendis magnam illo corrupti fugit soluta
+                similique.
+              </p>
+            </article>
+          </section>
+        </main>
+        <aside>hello1</aside>
+        <aside>hello2</aside>
+      </article>
+    </section>
+    <h3>Input Tags</h3>
+    <section class="inputTags">
+      <article>
+        <label for="">Range</label>
+        <input type="range" name="" id="" min="1" max="100" />
+      </article>
+      <article>
+        <label for="">checkbox</label>
+        <input type="checkbox" name="checkbox" id="" />
+      </article>
+      <article>
+        <label for="">Radio button</label>
+        <input type="radio" name="r1" id="" checked />
+      </article>
+      <article>
+        <label for="">Date</label> <input type="date" value="Submit" />
+      </article>
+      <article>
+        <label for="">Password</label>
+        <input type="password" name="p1" id="" />
+      </article>
+    </section>
+    <section class="inputTags2">
+        <article>&lt;input type="range"&gt;
+            <input type="range" name="" id="" min="0" max="12"></article>
+        <article>&lt;input type="search"&gt;
+            <input type="search" name="" id=""></article>
+        <article>&lt;input type="color"&gt;
+            <input type="color" name="" id=""></article>
+        <article>&lt;select name=""&gt;
+            &lt;option value="op1"&gt;option1&lt;/option &gt;
+            <select name="" id="">
+                <option value="op1">option1</option>
+                <option value="op2">option2</option>
+                <option value="op3">option3</option>
+                
+            </select></article>
+        <article>&lt;input type="file"&gt;
+            <input type="file" name="" id=""></article>
+      </section>
+      <h3>Form </h3>
+      <section class="formTag">
+        
+        <article>
+            <h2>For more details about form:<br><a href="https://www.w3schools.com/html/html_forms.asp">HTML forms</a></h2>
+                    <h1>Form</h1>
+                    <form action="ssvid.net - Deadpool  Avengers dancing Bye Bye Bye NSYNC_v720P.mp4">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required><br><br>
+                        <label for="lname">Password</label>
+                        <input type="password" id="password" name="lname"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+        </article>
+      </section>
+  </body>
+</html>
